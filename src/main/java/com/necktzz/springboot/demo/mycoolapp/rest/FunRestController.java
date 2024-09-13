@@ -13,7 +13,7 @@ public class FunRestController {
         return "Hello World";
     }
 
-    @GetMapping("/spring")
+    @GetMapping("/home")
     public String sayHiSpring() {
         return "HI SPRING!";
     }
